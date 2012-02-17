@@ -3,5 +3,5 @@
 
 # default values
 all:
-  per_page: 3
+  per_page: 4
 
