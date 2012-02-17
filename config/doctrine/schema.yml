@@ -1,0 +1,88 @@
+BlogArticle:
+  connection: doctrine
+  actAs: [Timestampable]
+  tableName: blog_article
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    title:   string(255)
+    content: clob
+ 
+BlogComment:
+  connection: doctrine
+  actAs: [Timestampable]
+  tableName: blog_comment
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    blog_article_id: integer
+    author: string(255)
+    content: clob
+  relations:
+    BlogArticle:
+      onDelete: CASCADE
+      foreignAlias: Comments
+
+Login:
+  connection: doctrine
+  tableName: login
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    first_name:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    last_name:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    email:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    username:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    password:
+      type: string(64)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false

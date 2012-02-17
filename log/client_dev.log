@@ -1,0 +1,151 @@
+Apr 18 15:41:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /client with parameters array (  'module' => 'client',  'action' => 'index',)
+Apr 18 15:41:59 symfony [info] {sfFrontWebController} Action "client/index" does not exist
+Apr 18 15:41:59 symfony [err] {sfError404Exception} Action "client/index" does not exist.
+Apr 18 15:41:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 18 15:41:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 18 15:41:59 symfony [info] {sfWebDebugLogger} Configuration 108.58 ms (5)
+Apr 18 15:41:59 symfony [info] {sfWebDebugLogger} Factories 81.12 ms (1)
+Apr 18 15:44:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /login with parameters array (  'module' => 'login',  'action' => 'index',)
+Apr 18 15:44:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:44:28 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:44:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 18 15:44:28 symfony [info] {loginActions} Call "loginActions->executeIndex()"
+Apr 18 15:44:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 18 15:44:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM login l - ()
+Apr 18 15:44:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT l.id AS l__id, l.created_at AS l__created_at, l.updated_at AS l__updated_at, l.first_name AS l__first_name, l.last_name AS l__last_name, l.email AS l__email, l.username AS l__username, l.password AS l__password FROM login l ORDER BY l.username asc LIMIT 3 - ()
+Apr 18 15:44:28 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/modules/login/templates/indexSuccess.php"
+Apr 18 15:44:28 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_List.php"
+Apr 18 15:44:28 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_paging.php"
+Apr 18 15:44:28 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_recordListing.php"
+Apr 18 15:44:28 symfony [info] {sfPHPView} Decorate content with "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:44:28 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:44:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 18 15:44:28 symfony [info] {sfWebResponse} Send header "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+Apr 18 15:44:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 18 15:44:28 symfony [info] {sfWebDebugLogger} Configuration 91.81 ms (9)
+Apr 18 15:44:28 symfony [info] {sfWebDebugLogger} Factories 76.15 ms (1)
+Apr 18 15:44:28 symfony [info] {sfWebDebugLogger} Action "login/index" 35.46 ms (1)
+Apr 18 15:44:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Apr 18 15:44:28 symfony [info] {sfWebDebugLogger} View "Success" for "login/index" 42.70 ms (1)
+Apr 18 15:44:28 symfony [info] {sfWebDebugLogger} Partial "global/_List" 24.13 ms (1)
+Apr 18 15:44:28 symfony [info] {sfWebDebugLogger} Partial "global/_paging" 2.75 ms (1)
+Apr 18 15:44:28 symfony [info] {sfWebDebugLogger} Partial "global/_recordListing" 10.26 ms (1)
+Apr 18 15:44:28 symfony [info] {sfWebResponse} Send content (49829 o)
+Apr 18 15:44:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /login with parameters array (  'module' => 'login',  'action' => 'index',)
+Apr 18 15:44:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:44:49 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:44:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 18 15:44:49 symfony [info] {loginActions} Call "loginActions->executeIndex()"
+Apr 18 15:44:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 18 15:44:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM login l - ()
+Apr 18 15:44:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT l.id AS l__id, l.created_at AS l__created_at, l.updated_at AS l__updated_at, l.first_name AS l__first_name, l.last_name AS l__last_name, l.email AS l__email, l.username AS l__username, l.password AS l__password FROM login l ORDER BY l.username asc LIMIT 3 - ()
+Apr 18 15:44:49 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/modules/login/templates/indexSuccess.php"
+Apr 18 15:44:49 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_List.php"
+Apr 18 15:44:49 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_paging.php"
+Apr 18 15:44:49 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_recordListing.php"
+Apr 18 15:44:49 symfony [info] {sfPHPView} Decorate content with "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:44:49 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:44:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 18 15:44:49 symfony [info] {sfWebResponse} Send header "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+Apr 18 15:44:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 18 15:44:49 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (9)
+Apr 18 15:44:49 symfony [info] {sfWebDebugLogger} Factories 22.98 ms (1)
+Apr 18 15:44:49 symfony [info] {sfWebDebugLogger} Action "login/index" 34.63 ms (1)
+Apr 18 15:44:49 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Apr 18 15:44:49 symfony [info] {sfWebDebugLogger} View "Success" for "login/index" 40.56 ms (1)
+Apr 18 15:44:49 symfony [info] {sfWebDebugLogger} Partial "global/_List" 23.92 ms (1)
+Apr 18 15:44:49 symfony [info] {sfWebDebugLogger} Partial "global/_paging" 2.69 ms (1)
+Apr 18 15:44:49 symfony [info] {sfWebDebugLogger} Partial "global/_recordListing" 10.19 ms (1)
+Apr 18 15:44:49 symfony [info] {sfWebResponse} Send content (49828 o)
+Apr 18 15:48:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /login with parameters array (  'module' => 'login',  'action' => 'index',)
+Apr 18 15:48:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:48:33 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:48:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 18 15:48:33 symfony [info] {loginActions} Call "loginActions->executeIndex()"
+Apr 18 15:48:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 18 15:48:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM login l - ()
+Apr 18 15:48:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT l.id AS l__id, l.created_at AS l__created_at, l.updated_at AS l__updated_at, l.first_name AS l__first_name, l.last_name AS l__last_name, l.email AS l__email, l.username AS l__username, l.password AS l__password FROM login l ORDER BY l.username asc LIMIT 3 - ()
+Apr 18 15:48:33 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/modules/login/templates/indexSuccess.php"
+Apr 18 15:48:33 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_List.php"
+Apr 18 15:48:33 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_paging.php"
+Apr 18 15:48:33 symfony [info] {sfPartialView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/_recordListing.php"
+Apr 18 15:48:33 symfony [info] {sfPHPView} Decorate content with "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:48:33 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:48:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 18 15:48:33 symfony [info] {sfWebResponse} Send header "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+Apr 18 15:48:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 18 15:48:33 symfony [info] {sfWebDebugLogger} Configuration 1.13 ms (9)
+Apr 18 15:48:33 symfony [info] {sfWebDebugLogger} Factories 24.09 ms (1)
+Apr 18 15:48:33 symfony [info] {sfWebDebugLogger} Action "login/index" 36.02 ms (1)
+Apr 18 15:48:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Apr 18 15:48:33 symfony [info] {sfWebDebugLogger} View "Success" for "login/index" 41.45 ms (1)
+Apr 18 15:48:33 symfony [info] {sfWebDebugLogger} Partial "global/_List" 24.79 ms (1)
+Apr 18 15:48:33 symfony [info] {sfWebDebugLogger} Partial "global/_paging" 2.95 ms (1)
+Apr 18 15:48:33 symfony [info] {sfWebDebugLogger} Partial "global/_recordListing" 10.37 ms (1)
+Apr 18 15:48:33 symfony [info] {sfWebResponse} Send content (49860 o)
+Apr 18 15:48:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /login with parameters array (  'module' => 'login',  'action' => 'index',)
+Apr 18 15:48:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:48:46 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:48:46 symfony [info] {sfBasicSecurityFilter} Action "login/index" requires authentication, forwarding to "login/login"
+Apr 18 15:48:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:48:46 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:48:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 18 15:48:46 symfony [info] {loginActions} Call "loginActions->executeLogin()"
+Apr 18 15:48:46 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/modules/login/templates/loginSuccess.php"
+Apr 18 15:49:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /login with parameters array (  'module' => 'login',  'action' => 'index',)
+Apr 18 15:49:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:49:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:49:02 symfony [info] {sfBasicSecurityFilter} Action "login/index" requires authentication, forwarding to "login/login"
+Apr 18 15:49:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:49:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:49:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 18 15:49:02 symfony [info] {loginActions} Call "loginActions->executeLogin()"
+Apr 18 15:49:02 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/modules/login/templates/loginSuccess.php"
+Apr 18 15:49:02 symfony [info] {sfPHPView} Decorate content with "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:49:02 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:49:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 18 15:49:02 symfony [info] {sfWebResponse} Send header "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+Apr 18 15:49:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 18 15:49:02 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (12)
+Apr 18 15:49:02 symfony [info] {sfWebDebugLogger} Factories 23.08 ms (1)
+Apr 18 15:49:02 symfony [info] {sfWebDebugLogger} Action "login/login" 26.51 ms (1)
+Apr 18 15:49:02 symfony [info] {sfWebDebugLogger} View "Success" for "login/login" 20.60 ms (1)
+Apr 18 15:49:02 symfony [info] {sfWebResponse} Send content (35683 o)
+Apr 18 15:49:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /login with parameters array (  'module' => 'login',  'action' => 'index',)
+Apr 18 15:49:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:49:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:49:13 symfony [info] {sfBasicSecurityFilter} Action "login/index" requires authentication, forwarding to "login/login"
+Apr 18 15:49:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:49:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:49:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 18 15:49:13 symfony [info] {loginActions} Call "loginActions->executeLogin()"
+Apr 18 15:49:13 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/modules/login/templates/loginSuccess.php"
+Apr 18 15:49:13 symfony [info] {sfPHPView} Decorate content with "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:49:13 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:49:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 18 15:49:13 symfony [info] {sfWebResponse} Send header "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+Apr 18 15:49:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 18 15:49:13 symfony [info] {sfWebDebugLogger} Configuration 1.35 ms (12)
+Apr 18 15:49:13 symfony [info] {sfWebDebugLogger} Factories 23.67 ms (1)
+Apr 18 15:49:13 symfony [info] {sfWebDebugLogger} Action "login/login" 26.33 ms (1)
+Apr 18 15:49:13 symfony [info] {sfWebDebugLogger} View "Success" for "login/login" 20.62 ms (1)
+Apr 18 15:49:13 symfony [info] {sfWebResponse} Send content (35608 o)
+Apr 18 15:52:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /login with parameters array (  'module' => 'login',  'action' => 'index',)
+Apr 18 15:52:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:52:16 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:52:16 symfony [info] {sfBasicSecurityFilter} Action "login/index" requires authentication, forwarding to "login/login"
+Apr 18 15:52:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 15:52:16 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 18 15:52:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 18 15:52:16 symfony [info] {loginActions} Call "loginActions->executeLogin()"
+Apr 18 15:52:16 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/modules/login/templates/loginSuccess.php"
+Apr 18 15:52:16 symfony [info] {sfPHPView} Decorate content with "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:52:16 symfony [info] {sfPHPView} Render "/home/nainit/web/www.test.com/web/visymfony/apps/client/templates/layout.php"
+Apr 18 15:52:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 18 15:52:16 symfony [info] {sfWebResponse} Send header "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+Apr 18 15:52:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 18 15:52:16 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (12)
+Apr 18 15:52:16 symfony [info] {sfWebDebugLogger} Factories 23.70 ms (1)
+Apr 18 15:52:16 symfony [info] {sfWebDebugLogger} Action "login/login" 26.34 ms (1)
+Apr 18 15:52:16 symfony [info] {sfWebDebugLogger} View "Success" for "login/login" 20.04 ms (1)
+Apr 18 15:52:16 symfony [info] {sfWebResponse} Send content (35576 o)

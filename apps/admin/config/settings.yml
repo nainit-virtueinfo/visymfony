@@ -1,0 +1,49 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/04-Settings
+
+prod:
+  .settings:
+    no_script_name:         true
+    logging_enabled:        false
+
+dev:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              true
+    cache:                  false
+    no_script_name:         true
+    etag:                   false
+
+test:
+  .settings:
+    error_reporting:        <?php echo ((E_ALL | E_STRICT) ^ E_NOTICE)."\n" ?>
+    cache:                  false
+    web_debug:              false
+    no_script_name:         false
+    etag:                   false
+
+all:
+  .actions:
+    error_404_module:       error   # To be called when a 404 error is raised
+    error_404_action:       index  # Or when the requested URL doesn't match any route
+
+    login_module:           login
+    login_action:           login
+
+#     secure_module:          login
+#     secure_action:          login
+
+  .settings:
+    # Form security secret (CSRF protection)
+    csrf_secret:            false
+    use_security:           on
+    # Output escaping settings
+    escaping_strategy:      true
+    escaping_method:        ESC_SPECIALCHARS
+
+    # Enable the database manager
+    use_database:           true
+
+    jquery_core:            jquery-1.3.2.min.js
+    
+    jquery_web_dir:         /jQuery

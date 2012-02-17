@@ -1,0 +1,43 @@
+blog_article:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                BlogArticle
+    module:               article
+    prefix_path:          /article
+    column:               id
+    with_wildcard_routes: true
+
+blog_comment_blogComment:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                BlogComment
+    module:               blogComment
+    prefix_path:          /blogComment
+    column:               id
+    with_wildcard_routes: true
+
+blog_comment:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                BlogComment
+    module:               BlogComment
+    prefix_path:          /BlogComment
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: login, action: welcome }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
