@@ -13,4 +13,5 @@ require_once dirname(__FILE__).'/../lib/articleGeneratorHelper.class.php';
  */
 class articleActions extends autoArticleActions
 {
+	
 }
