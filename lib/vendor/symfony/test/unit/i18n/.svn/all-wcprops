@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n
+END
+dataTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/dataTest.php
+END
+sfChoiceFormatTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfChoiceFormatTest.php
+END
+sfMessageSource_FileTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfMessageSource_FileTest.php
+END
+sfMessageSourceTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfMessageSourceTest.php
+END
+sfMessageSource_SQLiteTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfMessageSource_SQLiteTest.php
+END
+sfMessageSource_AggregateTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfMessageSource_AggregateTest.php
+END
+sfMessageSource_XLIFFTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfMessageSource_XLIFFTest.php
+END
+sfNumberFormatInfoTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfNumberFormatInfoTest.php
+END
+sfCultureInfoTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfCultureInfoTest.php
+END
+sfI18NTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/29003/tags/RELEASE_1_4_4/test/unit/i18n/sfI18NTest.php
+END
